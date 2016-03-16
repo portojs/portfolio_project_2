@@ -1,7 +1,10 @@
+import './scss/application.scss';
+
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import NavBar from './components/nav_bar';
+import BodyAbout from './components/body_about';
 import Footer from './components/footer';
 
 class App extends Component {
@@ -9,7 +12,7 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        Body
+        <BodyAbout />
         <Footer />
       </div>
     );

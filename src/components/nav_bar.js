@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NavBar = (props) => {
+const NavBar = () => {
   return (
     <nav className="navbar navbar-inverse navbar-fixed-top">
       <div className="container-fluid">
