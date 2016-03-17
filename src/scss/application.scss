@@ -2,12 +2,21 @@
 // Global
 //==============================================
 
+$white        : #fff;
+
+
+
+//==============================================
+// Global
+//==============================================
+
 body {
   font-family: 'Quattrocento', serif;
 }
 
 h1, h2, h3, h4, .navbar {
   font-family: 'Oxygen', sans-serif;
+  margin: 0;
 }
 
 
@@ -18,12 +27,25 @@ h1, h2, h3, h4, .navbar {
 
 .body_about {
   padding-top: 5em;
-  height: 500px;
+  // height: 500px;
 }
 .body_about .header {
+  height: 400px;
+}
+.body_about .header h1 {
+  position: relative;
   text-align: center;
-  padding-top: 10em;
+  line-height: 400px;
 }
 .body_about .image {
-  background: url('../img/piano.jpg') no-repeat center;
+  height: 400px;
+  background: $white url('../img/piano2.jpg') no-repeat center;
+}
+.body_about .text {
+  display: table;
+  height: 400px;
+}
+.body_about .text p {
+  display: table-cell;
+  vertical-align: middle;
 }

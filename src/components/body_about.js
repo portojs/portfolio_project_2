@@ -4,13 +4,22 @@ const BodyAbout = () => {
   return (
     <div className="container body_about">
       <div className="row">
-        <div className="col-md-3 header">
+        <div className="col-md-2 col-md-offset-1 header">
           <h1>Jazz.</h1>
         </div>
         <div className="col-md-5 image">
         </div>
-        <div className="col-md-4">
-          The best music in the world.
+        <div className="col-md-4 text">
+          <p>
+            Jazz is a music genre that originated from African American
+            communities of New Orleans in the United States during the
+            late 19th and early 20th centuries. It emerged in the form
+            of independent traditional and popular musical styles, all
+            linked by the common bonds of African American and European
+            American musical parentage with a performance orientation.
+            Jazz spans a period of over a hundred years, encompassing a
+            very wide range of music, making it difficult to define.
+          </p>
         </div>
       </div>
     </div>
