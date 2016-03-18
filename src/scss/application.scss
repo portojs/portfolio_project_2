@@ -72,7 +72,13 @@ h1, h2, h3, h4, h5, .navbar {
 }
 
 .body-about-roll .pic {
+  padding: 0;
   background-color: $color-back-roll;
+}
+
+.body-about-roll .pic img {
+  height: 200px;
+  width: 308px;
 }
 
 .body-about-roll h3 {
