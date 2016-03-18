@@ -4,20 +4,27 @@ const BodyTour = () => {
   return (
     <div className="container body-tour">
       <div className="row">
-        <div className="col-md-4 col-md-offset-2">
-          <h1>New Disc</h1>
+        <div className="col-md-4 col-md-offset-3">
+          <img src="src/img/soul_quest.jpg" alt="Soul Quest Album Cover Art"/>
         </div>
-        <div className="col-md-4">
-          <p>
-            Jazz is a music genre that originated from African American
-            communities of New Orleans in the United States during the
-            late 19th and early 20th centuries. It emerged in the form
-            of independent traditional and popular musical styles, all
-            linked by the common bonds of African American and European
-            American musical parentage with a performance orientation.
-            Jazz spans a period of over a hundred years, encompassing a
-            very wide range of music, making it difficult to define.
-          </p>
+        <div className="col-md-3">
+          <h3>Soul Quest</h3>
+          <ol>
+            <li>Dream Seeker</li>
+            <li>Black Lion</li>
+            <li>Top Secret</li>
+            <li>A Night With Cha Cha</li>
+            <li>Moving Mountain</li>
+            <li>Antarctica - A Call To Action</li>
+            <li>Soul Quest</li>
+            <li>Proof</li>
+            <li>Two Hearts</li>
+            <li>Stingo</li>
+          </ol>
+          <div className="btn-group btn-group-lg" role="group">
+            <button className="btn btn-primary btn-amazon">Amazon</button>
+            <button className="btn btn-success">iTunes</button>
+          </div>
         </div>
       </div>
     </div>
