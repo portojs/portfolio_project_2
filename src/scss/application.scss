@@ -3,6 +3,8 @@
 //==============================================
 
 $white             : #fff;
+$color-roll-text   : #efefff;
+$color-roll-pic    : #457161;
 $footer            : #444;
 $color-font-footer : #ddd;
 
@@ -14,7 +16,7 @@ body {
   font-family: 'Quattrocento', serif;
 }
 
-h1, h2, h3, h4, .navbar {
+h1, h2, h3, h4, h5, .navbar {
   font-family: 'Oxygen', sans-serif;
   margin: 0;
 }
@@ -25,30 +27,74 @@ h1, h2, h3, h4, .navbar {
 // Section: About
 //==============================================
 
-.body_about {
+.body-about {
   padding-top: 5em;
 }
-.body_about .header {
+.body-about .header {
   height: 400px;
 }
-.body_about .header h1 {
+.body-about .header h1 {
   position: relative;
   text-align: center;
   line-height: 400px;
 }
-.body_about .image {
+.body-about .image {
   height: 400px;
   background: $white url('../img/piano2.jpg') no-repeat center;
 }
-.body_about .text {
+.body-about .text {
   display: table;
   height: 400px;
 }
-.body_about .text p {
+.body-about .text p {
   display: table-cell;
   vertical-align: middle;
 }
 
+
+
+//==============================================
+// Section: About - Roll
+//==============================================
+
+.body-about-roll {
+  height: 400px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px 7px #ddd;
+}
+
+.body-about-roll .col-md-3 {
+  display: table;
+  height: 200px;
+}
+
+.body-about-roll .lead-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.body-about-roll .pic {
+  padding: 0;
+  background-color: $color-roll-pic;
+}
+
+.body-about-roll .body-text {
+  background-color: $color-roll-text;
+}
+
+.body-about-roll .pic img {
+  height: 200px;
+  width: 308px;
+}
+
+.body-about-roll h3 {
+  padding: 0.5em 0 1em;
+}
+
+.body-about-roll p {
+  margin: 0;
+}
 
 
 //==============================================

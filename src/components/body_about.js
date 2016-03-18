@@ -2,7 +2,7 @@ import React from 'react';
 
 const BodyAbout = () => {
   return (
-    <div className="container body_about">
+    <div className="container body-about">
       <div className="row">
         <div className="col-md-2 col-md-offset-1 header">
           <h1>Jazz.</h1>
