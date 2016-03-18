@@ -3,7 +3,8 @@
 //==============================================
 
 $white             : #fff;
-$color-back-roll   : #457161;
+$color-roll-text   : #efefff;
+$color-roll-pic    : #457161;
 $footer            : #444;
 $color-font-footer : #ddd;
 
@@ -58,6 +59,8 @@ h1, h2, h3, h4, h5, .navbar {
 
 .body-about-roll {
   height: 400px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px 7px #ddd;
 }
 
 .body-about-roll .col-md-3 {
@@ -73,7 +76,11 @@ h1, h2, h3, h4, h5, .navbar {
 
 .body-about-roll .pic {
   padding: 0;
-  background-color: $color-back-roll;
+  background-color: $color-roll-pic;
+}
+
+.body-about-roll .body-text {
+  background-color: $color-roll-text;
 }
 
 .body-about-roll .pic img {

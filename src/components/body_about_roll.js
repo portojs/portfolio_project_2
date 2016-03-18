@@ -4,13 +4,13 @@ const BodyAboutRoll = () => {
   return (
     <div className="body-about-roll">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-3 body-text">
           <h1 className="lead-text">Press</h1>
         </div>
         <div className="col-md-3 pic">
           <img src="src/img/keiko1.jpg"/>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 body-text">
           <h3>Wall Street Journal</h3>
           <p>
             Consequat molestie parturient adipiscing ad scelerisque
@@ -28,7 +28,7 @@ const BodyAboutRoll = () => {
         <div className="col-md-3 pic">
           <img src="src/img/keiko3.jpg"/>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 body-text">
           <h3>Vanity</h3>
           <p>
             Consequat molestie parturient adipiscing ad scelerisque
@@ -41,7 +41,7 @@ const BodyAboutRoll = () => {
         <div className="col-md-3 pic">
           <img src="src/img/keiko4.jpg"/>
         </div>
-        <div className="col-md-3">
+        <div className="col-md-3 body-text">
           <h3>New York Times</h3>
           <p>
             Consequat molestie parturient adipiscing ad scelerisque
