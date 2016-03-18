@@ -3,6 +3,7 @@
 //==============================================
 
 $white             : #fff;
+$color-back-roll   : #457161;
 $footer            : #444;
 $color-font-footer : #ddd;
 
@@ -25,28 +26,53 @@ h1, h2, h3, h4, .navbar {
 // Section: About
 //==============================================
 
-.body_about {
+.body-about {
   padding-top: 5em;
 }
-.body_about .header {
+.body-about .header {
   height: 400px;
 }
-.body_about .header h1 {
+.body-about .header h1 {
   position: relative;
   text-align: center;
   line-height: 400px;
 }
-.body_about .image {
+.body-about .image {
   height: 400px;
   background: $white url('../img/piano2.jpg') no-repeat center;
 }
-.body_about .text {
+.body-about .text {
   display: table;
   height: 400px;
 }
-.body_about .text p {
+.body-about .text p {
   display: table-cell;
   vertical-align: middle;
+}
+
+
+
+//==============================================
+// Section: About - Roll
+//==============================================
+
+.body-about-roll {
+  height: 400px;
+}
+
+.body-about-roll .col-md-3 {
+  display: table;
+  height: 200px;
+}
+
+.body-about-roll .lead-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.body-about-roll .pic {
+  background-color: $color-back-roll;
 }
 
 
