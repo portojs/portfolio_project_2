@@ -62,40 +62,35 @@ h1, h2, h3, h4, h5, .navbar {
   height: 400px;
   margin-top: 30px;
   box-shadow: 0 0 10px 7px #ddd;
+  background-color: $color-roll-text;
 }
 
-.body-about-roll .col-md-3 {
-  display: table;
+.body-about-roll .body-heading {
   height: 400px;
+  display: table;
 }
 
 .body-about-roll .lead-text {
+  text-align: center;
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
 }
 
-.body-about-roll .pic {
-  padding: 0;
-  background-color: $color-roll-text;
-}
-
-.body-about-roll .body-text {
-  background-color: $color-roll-text;
-}
-
-.body-about-roll .pic img {
+.body-about-roll .col-md-4 {
+  display: table;
   height: 200px;
-  width: 308px;
+}
+
+.body-about-roll .body-about-article {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .body-about-roll h3 {
   padding: 0.5em 0 1em;
 }
 
-.body-about-roll .body-about-article {
-  display: table-cell;
-  vertical-align: middle;
+.body-about-roll p {
   margin: 0;
 }
 
