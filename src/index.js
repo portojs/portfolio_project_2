@@ -8,6 +8,7 @@ import BodyAbout from './components/body_about';
 import BodyAboutRoll from './components/body_about_roll';
 import BodyAboutRollAlt from './components/body_about_roll_alt';
 import BodyTour from './components/body_tour';
+import BodyTourRoll from './components/body_tour_roll';
 import Footer from './components/footer';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <BodyAbout />
         <BodyAboutRollAlt />
         <BodyTour />
+        <BodyTourRoll />
         <Footer />
       </div>
     );

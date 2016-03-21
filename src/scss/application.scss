@@ -3,7 +3,7 @@
 //==============================================
 
 $white             : #fff;
-$color-roll-text   : #efefdd;
+$color-roll        : #efefdd;
 $color-roll-pic    : #457161;
 $footer            : #444;
 $color-font-footer : #ddd;
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, .navbar {
 .body-about-roll {
   margin-top: 30px;
   box-shadow: 0 0 10px 7px #ddd;
-  background-color: $color-roll-text;
+  background-color: $color-roll;
 }
 
 .body-about-roll .col-md-3 {
@@ -114,6 +114,25 @@ h1, h2, h3, h4, h5, .navbar {
 
 .body-tour .btn-group {
   margin-top: 1em;
+}
+
+
+
+//==============================================
+// Section: Tour - Roll
+//==============================================
+
+.body-tour-roll {
+  height: 400px;
+  background-color: $color-roll;
+}
+
+.body-tour-roll .col-md-3 {
+  height: 200px;
+}
+
+.body-tour-roll .col-md-3.pic {
+  background-color: $color-roll-pic;
 }
 
 //==============================================
