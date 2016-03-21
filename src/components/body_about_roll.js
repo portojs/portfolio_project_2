@@ -10,7 +10,7 @@ const BodyAboutRoll = () => {
         </div>
         <div className="col-md-9">
           <div className="row">
-            <div className="col-md-4 body-text">
+            <div className="col-md-4">
               <div className="body-about-article">
                 <h3>Los Angeles Outrider</h3>
                 <p>
@@ -22,7 +22,7 @@ const BodyAboutRoll = () => {
                 <h4 className="pull-right">1994</h4>
               </div>
             </div>
-            <div className="col-md-4 body-text">
+            <div className="col-md-4">
               <div className="body-about-article">
                 <h3>Wall Street Journal</h3>
                 <p>
@@ -34,7 +34,7 @@ const BodyAboutRoll = () => {
                 <h4 className="pull-right">1999</h4>
               </div>
             </div>
-            <div className="col-md-4 body-text">
+            <div className="col-md-4">
               <div className="body-about-article">
                 <h3>Vanity</h3>
                 <p>
@@ -48,7 +48,7 @@ const BodyAboutRoll = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4 body-text">
+            <div className="col-md-4">
               <div className="body-about-article">
                 <h3>New York Times</h3>
                 <p>
@@ -60,7 +60,7 @@ const BodyAboutRoll = () => {
                 <h4 className="pull-right">2014</h4>
               </div>
             </div>
-            <div className="col-md-4 body-text">
+            <div className="col-md-4">
               <div className="body-about-article">
                 <h3>Esquire</h3>
                 <p>
@@ -72,7 +72,7 @@ const BodyAboutRoll = () => {
                 <h4 className="pull-right">2014</h4>
               </div>
             </div>
-            <div className="col-md-4 body-text">
+            <div className="col-md-4">
               <div className="body-about-article">
                 <h3>Empire</h3>
                 <p>

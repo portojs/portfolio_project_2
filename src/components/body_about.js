@@ -4,10 +4,7 @@ const BodyAbout = () => {
   return (
     <div className="container body-about">
       <div className="row">
-        <div className="col-md-2 col-md-offset-1 header">
-          <h1>Jazz.</h1>
-        </div>
-        <div className="col-md-5 image">
+        <div className="col-md-4 col-md-offset-2 image">
         </div>
         <div className="col-md-4 text">
           <p>
