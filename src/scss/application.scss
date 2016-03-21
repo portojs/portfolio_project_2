@@ -3,11 +3,15 @@
 //==============================================
 
 $white             : #fff;
+$black             : #000;
+
 $color-roll        : #efefdd;
 $color-roll-pic    : #457161;
+$color-tour-roll   : #cc6a29;
 $footer            : #444;
 $color-font-footer : #ddd;
 
+// #c94b14
 //==============================================
 // Global
 //==============================================
@@ -124,7 +128,8 @@ h1, h2, h3, h4, h5, .navbar {
 
 .body-tour-roll {
   box-shadow: 0 0 10px 7px #ddd;
-  background-color: $color-roll;
+  color: $white;
+  background-color: $color-tour-roll;
 }
 
 .body-tour-roll .roll-content {
@@ -148,6 +153,11 @@ h1, h2, h3, h4, h5, .navbar {
 
 .body-tour-roll img {
   width: 100%;
+}
+
+.body-tour-roll ul {
+  list-style: none;
+  padding: 0;
 }
 
 
