@@ -20,9 +20,9 @@ class BodyTourRoll extends Component {
             <div className="roll-content">
               <h3>January</h3>
               <ul>
-                <li>UK, London, 12-01-2016</li>
-                <li>UK, Doublin, 14-01-2016</li>
-                <li>UK, Edinburgh, 15-01-2016</li>
+                <li>London, 12-01-2016</li>
+                <li>Doublin, 14-01-2016</li>
+                <li>Edinburgh, 15-01-2016</li>
               </ul>
             </div>
           </div>
@@ -42,9 +42,9 @@ class BodyTourRoll extends Component {
             <div className="roll-content">
               <h3>February</h3>
               <ul>
-                <li>Spain, Barcelona, 18-02-2016</li>
-                <li>Spain, Madrid, 19-02-2016</li>
-                <li>Spain, Valencia, 21-02-2016</li>
+                <li>Barcelona, 18-02-2016</li>
+                <li>Madrid, 19-02-2016</li>
+                <li>Valencia, 21-02-2016</li>
               </ul>
             </div>
           </div>
@@ -57,9 +57,9 @@ class BodyTourRoll extends Component {
             <div className="roll-content">
               <h3>March</h3>
               <ul>
-                <li>USA, New York, 01-03-2016</li>
-                <li>USA, San Francisco, 05-03-2016</li>
-                <li>USA, Los Angeles, 07-03-2016</li>
+                <li>New York, 01-03-2016</li>
+                <li>San Francisco, 05-03-2016</li>
+                <li>Los Angeles, 07-03-2016</li>
               </ul>
             </div>
           </div>

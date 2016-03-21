@@ -7,11 +7,11 @@ $black             : #000;
 
 $color-roll        : #efefdd;
 $color-roll-pic    : #457161;
-$color-tour-roll   : #cc6a29;
-$footer            : #444;
-$color-font-footer : #ddd;
+$color-tour-roll   : #bf8863;
+$color-footer      : #eee;
+$color-footer-font : $black;
 
-// #c94b14
+// #c94b14 #cc6a29 c98c63 b37e5b 1b6a9e
 //==============================================
 // Global
 //==============================================
@@ -25,6 +25,15 @@ h1, h2, h3, h4, h5, .navbar {
   margin: 0;
 }
 
+
+//==============================================
+// Section: Navigation
+//==============================================
+
+#keiko-navbar {
+  color: $color-footer-font;
+  background-color: $color-footer;
+}
 
 
 //==============================================
@@ -63,35 +72,34 @@ h1, h2, h3, h4, h5, .navbar {
 //==============================================
 
 .body-about-roll {
-  margin-top: 30px;
+  margin-top: 2em;
   box-shadow: 0 0 10px 7px #ddd;
   background-color: $color-roll;
 }
 
-.body-about-roll .col-md-3 {
-  height: 300px;
-  display: table;
+.body-about-roll .roll-content {
+  padding-top: 0.5em;
 }
 
-.body-about-roll .lead-text,
-.body-about-roll .body-about-article {
-  display: table-cell;
-  vertical-align: middle;
+.body-about-roll .roll-content.lead-text {
+  padding-top: 4em;
 }
 
-.body-about-roll .lead-text {
+.body-about-roll .col-md-3.pic {
+  padding: 0;
+}
+
+.body-about-roll h2 {
   text-align: center;
 }
 
 .body-about-roll h3 {
-  padding: 0.5em 0 1em;
+  padding-bottom: 0.5em;
 }
 
-.body-about-roll p {
-  margin: 0;
+.body-about-roll img {
+  width: 100%;
 }
-
-
 
 //==============================================
 // Section: Tour
@@ -102,18 +110,23 @@ h1, h2, h3, h4, h5, .navbar {
 }
 
 .body-tour img {
-  height: 309px;
-  width: 345px;
+  width: 100%;
 }
 
-.body-tour h4 {
+.body-tour .col-md-4 {
+  display: table;
+  text-align: center;
+}
+
+.body-tour .col-content {
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.body-tour h2 {
   padding: 0.5em 0;
-}
-
-.body-tour ol {
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
 }
 
 .body-tour .btn-group {
@@ -128,12 +141,14 @@ h1, h2, h3, h4, h5, .navbar {
 
 .body-tour-roll {
   box-shadow: 0 0 10px 7px #ddd;
-  color: $white;
-  background-color: $color-tour-roll;
+  color: $black;
+  background-color: $color-roll;
 }
 
 .body-tour-roll .roll-content {
   padding-top: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .body-tour-roll .roll-content.lead-text {
@@ -172,22 +187,23 @@ html {
   min-height: 100%;
 }
 body {
-  margin-bottom: 120px;
+  margin-bottom: 180px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 120px;
+  height: 180px;
   font-size: 0.95em;
-  color: $color-font-footer;
-  background-color: $footer;
+  border-top: 1px solid $black;
+  color: $color-footer-font;
+  background-color: $color-footer;
 }
 .footer ul {
-  padding: 1.5em 0 0 6em;
+  padding: 3em 0 0 6em;
 }
 .footer p {
   font-size: 0.9em;
-  padding-top: 0.1em;
+  padding-top: 2.5em;
   margin: 0;
 }
