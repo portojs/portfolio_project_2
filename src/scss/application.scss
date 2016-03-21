@@ -59,14 +59,13 @@ h1, h2, h3, h4, h5, .navbar {
 //==============================================
 
 .body-about-roll {
-  height: 400px;
   margin-top: 30px;
   box-shadow: 0 0 10px 7px #ddd;
   background-color: $color-roll-text;
 }
 
-.body-about-roll .body-heading {
-  height: 400px;
+.body-about-roll .col-md-3 {
+  height: 300px;
   display: table;
 }
 
@@ -74,11 +73,6 @@ h1, h2, h3, h4, h5, .navbar {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
-}
-
-.body-about-roll .col-md-4 {
-  display: table;
-  height: 200px;
 }
 
 .body-about-roll .body-about-article {
