@@ -7,8 +7,9 @@ const BodyTour = () => {
         <div className="col-md-4 col-md-offset-3">
           <img src="src/img/soul_quest.jpg" alt="Soul Quest Album Cover Art"/>
         </div>
-        <div className="col-md-3">
-          <h3>Soul Quest</h3>
+        <div className="col-md-4">
+          <h1>AVAILABLE NOW!</h1>
+          <h4>Soul Quest</h4>
           <ol>
             <li>Dream Seeker</li>
             <li>Black Lion</li>
