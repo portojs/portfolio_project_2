@@ -123,17 +123,34 @@ h1, h2, h3, h4, h5, .navbar {
 //==============================================
 
 .body-tour-roll {
-  height: 400px;
+  box-shadow: 0 0 10px 7px #ddd;
   background-color: $color-roll;
 }
 
-.body-tour-roll .col-md-3 {
-  height: 200px;
+.body-tour-roll .roll-content {
+  padding-top: 2em;
+}
+
+.body-tour-roll .roll-content.lead-text {
+  padding-top: 4em;
 }
 
 .body-tour-roll .col-md-3.pic {
-  background-color: $color-roll-pic;
+  padding: 0;
 }
+
+.body-tour-roll h2,
+.body-tour-roll h3,
+.body-tour-roll h4 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.body-tour-roll img {
+  width: 100%;
+}
+
+
 
 //==============================================
 // Footer
