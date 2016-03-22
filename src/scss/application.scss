@@ -5,10 +5,10 @@
 $white             : #fff;
 $black             : #000;
 
-$color-roll        : #EB95F5;
+$color-roll        : #9ED7FF;
 $color-roll-pic    : #457161;
 $color-tour-roll   : #bf8863;
-$color-footer      : $black;
+$color-footer      : #333;
 $color-footer-font : #bbb;
 
 // #c94b14 #cc6a29 c98c63 b37e5b 1b6a9e
@@ -24,7 +24,6 @@ h1, h2, h3, h4, h5, .navbar {
   font-family: 'Oxygen', sans-serif;
   margin: 0;
 }
-
 
 //==============================================
 // Section: Navigation
@@ -173,6 +172,16 @@ h1, h2, h3, h4, h5, .navbar {
 .body-tour-roll ul {
   list-style: none;
   padding: 0;
+}
+
+
+
+//==============================================
+// Section: Discs
+//==============================================
+
+.body-discs {
+  padding: 7em 0;
 }
 
 
