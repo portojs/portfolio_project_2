@@ -193,6 +193,23 @@ h1, h2, h3, h4, h5, .navbar {
   margin-top: 2em;
 }
 
+
+
+//==============================================
+// Section: Tour - Roll
+//==============================================
+
+.body-discs-roll {
+  box-shadow: 0 0 10px 7px #ddd;
+  color: $black;
+  background-color: $color-roll;
+}
+
+.body-discs-roll .col-md-3 {
+  padding: 8em 3em;
+}
+
+
 //==============================================
 // Footer
 //==============================================
