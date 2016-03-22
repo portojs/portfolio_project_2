@@ -5,11 +5,11 @@
 $white             : #fff;
 $black             : #000;
 
-$color-roll        : #efefdd;
+$color-roll        : #EB95F5;
 $color-roll-pic    : #457161;
 $color-tour-roll   : #bf8863;
-$color-footer      : #eee;
-$color-footer-font : $black;
+$color-footer      : $black;
+$color-footer-font : #bbb;
 
 // #c94b14 #cc6a29 c98c63 b37e5b 1b6a9e
 //==============================================
@@ -187,23 +187,23 @@ html {
   min-height: 100%;
 }
 body {
-  margin-bottom: 180px;
+  margin-bottom: 100px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 180px;
+  height: 100px;
   font-size: 0.95em;
   border-top: 1px solid $black;
   color: $color-footer-font;
   background-color: $color-footer;
 }
 .footer ul {
-  padding: 3em 0 0 6em;
+  padding: 1em 0 0 2em;
 }
 .footer p {
   font-size: 0.9em;
-  padding-top: 2.5em;
+  padding-top: 0.2em;
   margin: 0;
 }
