@@ -1,0 +1,252 @@
+//==============================================
+// Global
+//==============================================
+
+$white             : #fff;
+$black             : #000;
+
+$color-roll        : #9ED7FF;
+$color-roll-pic    : #457161;
+$color-tour-roll   : #bf8863;
+$color-footer      : #333;
+$color-footer-font : #bbb;
+
+//==============================================
+// Global
+//==============================================
+
+body {
+  font-family: 'Quattrocento', serif;
+  // background-color: red;
+}
+
+h1, h2, h3, h4, h5, .navbar {
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+}
+
+.shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: inset 0 0 40px 7px #000;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+}
+
+//==============================================
+// Section: Navigation
+//==============================================
+
+#keiko-navbar {
+  color: $color-footer-font;
+  background-color: $color-footer;
+}
+
+
+//==============================================
+// Section: About
+//==============================================
+
+.body-about {
+  padding-top: 5em;
+}
+.body-about .header {
+  height: 400px;
+}
+.body-about .header h1 {
+  position: relative;
+  text-align: center;
+  line-height: 400px;
+}
+.body-about .image {
+  height: 400px;
+  background: $white url('../img/piano2.jpg') no-repeat center;
+}
+.body-about .text {
+  display: table;
+  height: 400px;
+  font-size: 1.2em;
+}
+.body-about .text p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+//==============================================
+// Section: About - Roll
+//==============================================
+
+.body-about-roll {
+  margin-top: 2em;
+  box-shadow: 0 0 10px 7px #ddd;
+  background-color: $color-roll;
+}
+
+.body-about-roll .roll-content {
+  padding-top: 0.5em;
+}
+
+.body-about-roll .roll-content.lead-text {
+  padding-top: 4em;
+}
+
+.body-about-roll .col-md-3.pic {
+  padding: 0;
+}
+
+.body-about-roll h2 {
+  text-align: center;
+}
+
+.body-about-roll h3 {
+  padding-bottom: 0.5em;
+}
+
+.body-about-roll img {
+  width: 100%;
+}
+
+//==============================================
+// Section: Tour
+//==============================================
+
+.body-tour {
+  padding: 7em 0;
+}
+
+.body-tour img {
+  width: 100%;
+}
+
+.body-tour .col-md-4 {
+  display: table;
+  text-align: center;
+}
+
+.body-tour .col-content {
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.body-tour h2 {
+  padding: 0.5em 0;
+}
+
+.body-tour .btn-group {
+  margin-top: 1em;
+}
+
+
+
+//==============================================
+// Section: Tour - Roll
+//==============================================
+
+.body-tour-roll {
+  box-shadow: 0 0 10px 7px #ddd;
+  color: $black;
+  background-color: $color-roll;
+}
+
+.body-tour-roll .roll-content {
+  padding-top: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.body-tour-roll .roll-content.lead-text {
+  padding-top: 4em;
+}
+
+.body-tour-roll .col-md-3.pic {
+  padding: 0;
+}
+
+.body-tour-roll h2,
+.body-tour-roll h3,
+.body-tour-roll h4 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.body-tour-roll img {
+  width: 100%;
+}
+
+.body-tour-roll ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+//==============================================
+// Section: Discs
+//==============================================
+
+.body-discs {
+  padding: 7em 0;
+}
+
+.body-discs img {
+  width: 100%;
+}
+
+.body-discs button {
+  margin-top: 2em;
+}
+
+
+
+//==============================================
+// Section: Tour - Roll
+//==============================================
+
+.body-discs-roll {
+  position: relative;
+  color: $white;
+  background-color: $black;
+  padding: 0;
+}
+
+.body-discs-roll img {
+  width: 100%;
+}
+
+
+//==============================================
+// Footer
+//==============================================
+
+// sticky footer
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  font-size: 0.95em;
+  border-top: 1px solid $black;
+  color: $color-footer-font;
+  background-color: $color-footer;
+}
+.footer ul {
+  padding: 1em 0 0 2em;
+}
+.footer p {
+  font-size: 0.9em;
+  padding-top: 0.2em;
+  margin: 0;
+}
