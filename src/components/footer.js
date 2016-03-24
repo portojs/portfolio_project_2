@@ -10,14 +10,12 @@ const Footer = (props) => {
               <li>Legal Notice</li>
               <li>Terms & Conditions</li>
               <li>Disclaimer</li>
-              <li>Notes</li>
             </ul>
           </div>
           <div className="col-md-3">
             <ul>
               <li>Contacts</li>
               <li>About us</li>
-              <li>Shop</li>
             </ul>
           </div>
         </div>

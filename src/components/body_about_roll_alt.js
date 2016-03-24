@@ -12,9 +12,9 @@ const ArticleData1 = [
     year: 1999
   },
   {
-    name: 'Vanity',
+    name: 'New York Times',
     text: 'Consequat molestie parturient adipiscing ad scelerisque scelerisque tincidunt rutrum himenaeos hendrerit nunc vestibulum consectetur tempus ullamcorper tincidunt vestibulum vivamus.',
-    year: 2012
+    year: 2014
   }
 ];
 
@@ -36,10 +36,10 @@ const ArticleData2 = [
   }
 ]
 
-class BodyAboutRoll extends Component {
+class BodyAboutRollAlt extends Component {
   renderArticles(articleData) {
     return (
-      <div className="col-md-4">
+      <div key={articleData.year} className="col-md-3">
         <div className="body-about-article">
           <h3>{articleData.name}</h3>
           <p>{articleData.text}</p>
@@ -51,23 +51,16 @@ class BodyAboutRoll extends Component {
 
   render() {
     return (
-      <div className="body-about-roll">
+      <div className="container-fluid body-about-roll">
         <div className="row">
-          <div className="col-md-3 body-heading">
+          <div className="col-md-3">
             <h1 className="lead-text">Press</h1>
           </div>
-          <div className="col-md-9">
-            <div className="row">
-              {ArticleData1.map(this.renderArticles)}
-            </div>
-            <div className="row">
-              {ArticleData2.map(this.renderArticles)}
-            </div>
-          </div>
+            {ArticleData1.map(this.renderArticles)}
         </div>
       </div>
     );
   }
 }
 
-export default BodyAboutRoll;
+export default BodyAboutRollAlt;

@@ -2,7 +2,7 @@ import React from 'react';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-inverse navbar-fixed-top">
+    <nav className="navbar navbar-inverse navbar-fixed-top" id="keiko-navbar">
       <div className="container-fluid">
         <div className="navbar-header">
           <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
